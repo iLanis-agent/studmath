@@ -1,0 +1,989 @@
+{
+ "cases": [
+  {
+   "fn": "studs",
+   "args": [
+    "26",
+    "16",
+    "6"
+   ],
+   "expect": "The 26 ft of wall at 16 inches takes 21 studs, plus 6 extra, 27 studs in all."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "26",
+    "3",
+    "8"
+   ],
+   "expect": "The 3 plates of 26 ft in 8 ft boards take 10 boards, leaving 2 ft."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "27",
+    "10",
+    "3.85"
+   ],
+   "expect": "The 27 studs and 10 plate boards are 37 boards, at $3.85 cost $142.45."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "37",
+    "10"
+   ],
+   "expect": "The 37 boards in bundles of 10 take 4 bundles, leaving 3 boards."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "1",
+    "48",
+    "0"
+   ],
+   "expect": "The 1 ft of wall at 48 inches takes 2 studs, plus 0 extra, 2 studs in all."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 board in bundles of 1 take 1 bundle, leaving 0 boards."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "83241",
+    "24",
+    "20713"
+   ],
+   "expect": "The 83241 ft of wall at 24 inches takes 41622 studs, plus 20713 extra, 62335 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "51078",
+    "16",
+    "11815"
+   ],
+   "expect": "The 51078 ft of wall at 16 inches takes 38310 studs, plus 11815 extra, 50125 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "43602",
+    "14",
+    "84722"
+   ],
+   "expect": "The 43602 ft of wall at 14 inches takes 37375 studs, plus 84722 extra, 122097 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "25221",
+    "2",
+    "32097"
+   ],
+   "expect": "The 25221 ft of wall at 2 inches takes 151327 studs, plus 32097 extra, 183424 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "96279",
+    "8",
+    "14182"
+   ],
+   "expect": "The 96279 ft of wall at 8 inches takes 144420 studs, plus 14182 extra, 158602 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "20913",
+    "45",
+    "8047"
+   ],
+   "expect": "The 20913 ft of wall at 45 inches takes 5578 studs, plus 8047 extra, 13625 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "27804",
+    "46",
+    "69653"
+   ],
+   "expect": "The 27804 ft of wall at 46 inches takes 7255 studs, plus 69653 extra, 76908 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "41742",
+    "1",
+    "45726"
+   ],
+   "expect": "The 41742 ft of wall at 1 inches takes 500905 studs, plus 45726 extra, 546631 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "46142",
+    "20",
+    "98041"
+   ],
+   "expect": "The 46142 ft of wall at 20 inches takes 27687 studs, plus 98041 extra, 125728 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "14963",
+    "33",
+    "55094"
+   ],
+   "expect": "The 14963 ft of wall at 33 inches takes 5443 studs, plus 55094 extra, 60537 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "4800",
+    "9",
+    "61283"
+   ],
+   "expect": "The 4800 ft of wall at 9 inches takes 6401 studs, plus 61283 extra, 67684 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "77194",
+    "7",
+    "54626"
+   ],
+   "expect": "The 77194 ft of wall at 7 inches takes 132334 studs, plus 54626 extra, 186960 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "80438",
+    "29",
+    "88430"
+   ],
+   "expect": "The 80438 ft of wall at 29 inches takes 33286 studs, plus 88430 extra, 121716 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "80834",
+    "4",
+    "74494"
+   ],
+   "expect": "The 80834 ft of wall at 4 inches takes 242503 studs, plus 74494 extra, 316997 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "70239",
+    "48",
+    "73226"
+   ],
+   "expect": "The 70239 ft of wall at 48 inches takes 17561 studs, plus 73226 extra, 90787 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "62273",
+    "10",
+    "97354"
+   ],
+   "expect": "The 62273 ft of wall at 10 inches takes 74729 studs, plus 97354 extra, 172083 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "702",
+    "16",
+    "77032"
+   ],
+   "expect": "The 702 ft of wall at 16 inches takes 528 studs, plus 77032 extra, 77560 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "76754",
+    "19",
+    "49114"
+   ],
+   "expect": "The 76754 ft of wall at 19 inches takes 48478 studs, plus 49114 extra, 97592 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "59819",
+    "41",
+    "72819"
+   ],
+   "expect": "The 59819 ft of wall at 41 inches takes 17509 studs, plus 72819 extra, 90328 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "73511",
+    "35",
+    "26455"
+   ],
+   "expect": "The 73511 ft of wall at 35 inches takes 25205 studs, plus 26455 extra, 51660 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "11757",
+    "36",
+    "90092"
+   ],
+   "expect": "The 11757 ft of wall at 36 inches takes 3920 studs, plus 90092 extra, 94012 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "40683",
+    "33",
+    "63391"
+   ],
+   "expect": "The 40683 ft of wall at 33 inches takes 14795 studs, plus 63391 extra, 78186 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "10844",
+    "16",
+    "78045"
+   ],
+   "expect": "The 10844 ft of wall at 16 inches takes 8134 studs, plus 78045 extra, 86179 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "16260",
+    "38",
+    "69119"
+   ],
+   "expect": "The 16260 ft of wall at 38 inches takes 5136 studs, plus 69119 extra, 74255 studs in all."
+  },
+  {
+   "fn": "studs",
+   "args": [
+    "96381",
+    "35",
+    "11785"
+   ],
+   "expect": "The 96381 ft of wall at 35 inches takes 33046 studs, plus 11785 extra, 44831 studs in all."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "16494",
+    "9",
+    "50"
+   ],
+   "expect": "The 9 plates of 16494 ft in 50 ft boards take 2969 boards, leaving 4 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "3083",
+    "2",
+    "11"
+   ],
+   "expect": "The 2 plates of 3083 ft in 11 ft boards take 561 boards, leaving 5 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "97474",
+    "6",
+    "46"
+   ],
+   "expect": "The 6 plates of 97474 ft in 46 ft boards take 12714 boards, leaving 0 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "17046",
+    "2",
+    "36"
+   ],
+   "expect": "The 2 plates of 17046 ft in 36 ft boards take 947 boards, leaving 0 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "58016",
+    "7",
+    "49"
+   ],
+   "expect": "The 7 plates of 58016 ft in 49 ft boards take 8288 boards, leaving 0 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "73390",
+    "8",
+    "20"
+   ],
+   "expect": "The 8 plates of 73390 ft in 20 ft boards take 29356 boards, leaving 0 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "63577",
+    "5",
+    "3"
+   ],
+   "expect": "The 5 plates of 63577 ft in 3 ft boards take 105962 boards, leaving 1 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "60218",
+    "3",
+    "6"
+   ],
+   "expect": "The 3 plates of 60218 ft in 6 ft boards take 30109 boards, leaving 0 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "86657",
+    "10",
+    "21"
+   ],
+   "expect": "The 10 plates of 86657 ft in 21 ft boards take 41266 boards, leaving 16 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "27146",
+    "1",
+    "1"
+   ],
+   "expect": "The 1 plate of 27146 ft in 1 ft boards take 27146 boards, leaving 0 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "26043",
+    "6",
+    "12"
+   ],
+   "expect": "The 6 plates of 26043 ft in 12 ft boards take 13022 boards, leaving 6 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "6004",
+    "4",
+    "27"
+   ],
+   "expect": "The 4 plates of 6004 ft in 27 ft boards take 890 boards, leaving 14 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "12234",
+    "1",
+    "24"
+   ],
+   "expect": "The 1 plate of 12234 ft in 24 ft boards take 510 boards, leaving 6 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "21552",
+    "7",
+    "29"
+   ],
+   "expect": "The 7 plates of 21552 ft in 29 ft boards take 5203 boards, leaving 23 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "97417",
+    "10",
+    "41"
+   ],
+   "expect": "The 10 plates of 97417 ft in 41 ft boards take 23761 boards, leaving 31 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "72394",
+    "6",
+    "11"
+   ],
+   "expect": "The 6 plates of 72394 ft in 11 ft boards take 39488 boards, leaving 4 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "66196",
+    "4",
+    "13"
+   ],
+   "expect": "The 4 plates of 66196 ft in 13 ft boards take 20368 boards, leaving 0 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "10807",
+    "5",
+    "20"
+   ],
+   "expect": "The 5 plates of 10807 ft in 20 ft boards take 2702 boards, leaving 5 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "41269",
+    "8",
+    "4"
+   ],
+   "expect": "The 8 plates of 41269 ft in 4 ft boards take 82538 boards, leaving 0 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "74858",
+    "6",
+    "39"
+   ],
+   "expect": "The 6 plates of 74858 ft in 39 ft boards take 11517 boards, leaving 15 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "7654",
+    "9",
+    "5"
+   ],
+   "expect": "The 9 plates of 7654 ft in 5 ft boards take 13778 boards, leaving 4 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "30909",
+    "10",
+    "7"
+   ],
+   "expect": "The 10 plates of 30909 ft in 7 ft boards take 44156 boards, leaving 2 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "67843",
+    "10",
+    "37"
+   ],
+   "expect": "The 10 plates of 67843 ft in 37 ft boards take 18336 boards, leaving 2 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "21714",
+    "10",
+    "24"
+   ],
+   "expect": "The 10 plates of 21714 ft in 24 ft boards take 9048 boards, leaving 12 ft."
+  },
+  {
+   "fn": "plates",
+   "args": [
+    "96234",
+    "9",
+    "1"
+   ],
+   "expect": "The 9 plates of 96234 ft in 1 ft boards take 866106 boards, leaving 0 ft."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "987140",
+    "39070",
+    "9716.49"
+   ],
+   "expect": "The 987140 studs and 39070 plate boards are 1026210 boards, at $9716.49 cost $9971159202.90."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "41007",
+    "20779",
+    "8706.49"
+   ],
+   "expect": "The 41007 studs and 20779 plate boards are 61786 boards, at $8706.49 cost $537939191.14."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "342893",
+    "18407",
+    "6342.97"
+   ],
+   "expect": "The 342893 studs and 18407 plate boards are 361300 boards, at $6342.97 cost $2291715061.00."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "51251",
+    "24030",
+    "4839.21"
+   ],
+   "expect": "The 51251 studs and 24030 plate boards are 75281 boards, at $4839.21 cost $364300568.01."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "227221",
+    "72857",
+    "4877.48"
+   ],
+   "expect": "The 227221 studs and 72857 plate boards are 300078 boards, at $4877.48 cost $1463624443.44."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "845001",
+    "36032",
+    "5110.34"
+   ],
+   "expect": "The 845001 studs and 36032 plate boards are 881033 boards, at $5110.34 cost $4502378181.22."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "90733",
+    "85318",
+    "3868.59"
+   ],
+   "expect": "The 90733 studs and 85318 plate boards are 176051 boards, at $3868.59 cost $681069138.09."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "562031",
+    "29852",
+    "1952.74"
+   ],
+   "expect": "The 562031 studs and 29852 plate boards are 591883 boards, at $1952.74 cost $1155793609.42."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "289600",
+    "78177",
+    "4984.11"
+   ],
+   "expect": "The 289600 studs and 78177 plate boards are 367777 boards, at $4984.11 cost $1833041023.47."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "752280",
+    "55087",
+    "6751.34"
+   ],
+   "expect": "The 752280 studs and 55087 plate boards are 807367 boards, at $6751.34 cost $5450809121.78."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "389969",
+    "56100",
+    "5065.99"
+   ],
+   "expect": "The 389969 studs and 56100 plate boards are 446069 boards, at $5065.99 cost $2259781093.31."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "677307",
+    "98355",
+    "7606.94"
+   ],
+   "expect": "The 677307 studs and 98355 plate boards are 775662 boards, at $7606.94 cost $5900414294.28."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "763603",
+    "5670",
+    "5319.93"
+   ],
+   "expect": "The 763603 studs and 5670 plate boards are 769273 boards, at $5319.93 cost $4092478510.89."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "442863",
+    "84882",
+    "1663.27"
+   ],
+   "expect": "The 442863 studs and 84882 plate boards are 527745 boards, at $1663.27 cost $877782426.15."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "212663",
+    "34552",
+    "1066.11"
+   ],
+   "expect": "The 212663 studs and 34552 plate boards are 247215 boards, at $1066.11 cost $263558383.65."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "221833",
+    "90845",
+    "2551.56"
+   ],
+   "expect": "The 221833 studs and 90845 plate boards are 312678 boards, at $2551.56 cost $797816677.68."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "775143",
+    "31654",
+    "4328.81"
+   ],
+   "expect": "The 775143 studs and 31654 plate boards are 806797 boards, at $4328.81 cost $3492470921.57."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "847526",
+    "56972",
+    "5408.65"
+   ],
+   "expect": "The 847526 studs and 56972 plate boards are 904498 boards, at $5408.65 cost $4892113107.70."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "923458",
+    "58822",
+    "231.19"
+   ],
+   "expect": "The 923458 studs and 58822 plate boards are 982280 boards, at $231.19 cost $227093313.20."
+  },
+  {
+   "fn": "boards",
+   "args": [
+    "597089",
+    "75274",
+    "2658.67"
+   ],
+   "expect": "The 597089 studs and 75274 plate boards are 672363 boards, at $2658.67 cost $1787591337.21."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "585185",
+    "309"
+   ],
+   "expect": "The 585185 boards in bundles of 309 take 1894 bundles, leaving 61 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "584417",
+    "94"
+   ],
+   "expect": "The 584417 boards in bundles of 94 take 6218 bundles, leaving 75 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "253315",
+    "160"
+   ],
+   "expect": "The 253315 boards in bundles of 160 take 1584 bundles, leaving 125 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "405714",
+    "500"
+   ],
+   "expect": "The 405714 boards in bundles of 500 take 812 bundles, leaving 286 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "540182",
+    "333"
+   ],
+   "expect": "The 540182 boards in bundles of 333 take 1623 bundles, leaving 277 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "793917",
+    "702"
+   ],
+   "expect": "The 793917 boards in bundles of 702 take 1131 bundles, leaving 45 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "187725",
+    "374"
+   ],
+   "expect": "The 187725 boards in bundles of 374 take 502 bundles, leaving 23 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "212498",
+    "913"
+   ],
+   "expect": "The 212498 boards in bundles of 913 take 233 bundles, leaving 231 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "402029",
+    "640"
+   ],
+   "expect": "The 402029 boards in bundles of 640 take 629 bundles, leaving 531 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "611265",
+    "636"
+   ],
+   "expect": "The 611265 boards in bundles of 636 take 962 bundles, leaving 567 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "315937",
+    "354"
+   ],
+   "expect": "The 315937 boards in bundles of 354 take 893 bundles, leaving 185 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "365675",
+    "191"
+   ],
+   "expect": "The 365675 boards in bundles of 191 take 1915 bundles, leaving 90 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "853270",
+    "919"
+   ],
+   "expect": "The 853270 boards in bundles of 919 take 929 bundles, leaving 481 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "407965",
+    "91"
+   ],
+   "expect": "The 407965 boards in bundles of 91 take 4484 bundles, leaving 79 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "596824",
+    "309"
+   ],
+   "expect": "The 596824 boards in bundles of 309 take 1932 bundles, leaving 164 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "384492",
+    "775"
+   ],
+   "expect": "The 384492 boards in bundles of 775 take 497 bundles, leaving 683 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "613390",
+    "86"
+   ],
+   "expect": "The 613390 boards in bundles of 86 take 7133 bundles, leaving 48 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "529320",
+    "417"
+   ],
+   "expect": "The 529320 boards in bundles of 417 take 1270 bundles, leaving 270 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "330071",
+    "554"
+   ],
+   "expect": "The 330071 boards in bundles of 554 take 596 bundles, leaving 113 boards."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "346073",
+    "529"
+   ],
+   "expect": "The 346073 boards in bundles of 529 take 655 bundles, leaving 422 boards."
+  }
+ ],
+ "errors": [
+  [
+   "studs",
+   [
+    "0",
+    "16",
+    "6"
+   ]
+  ],
+  [
+   "studs",
+   [
+    "100001",
+    "16",
+    "6"
+   ]
+  ],
+  [
+   "studs",
+   [
+    "26",
+    "0",
+    "6"
+   ]
+  ],
+  [
+   "studs",
+   [
+    "26",
+    "49",
+    "6"
+   ]
+  ],
+  [
+   "studs",
+   [
+    "26",
+    "16",
+    "-1"
+   ]
+  ],
+  [
+   "studs",
+   [
+    "26",
+    "16",
+    "100001"
+   ]
+  ],
+  [
+   "plates",
+   [
+    "0",
+    "3",
+    "8"
+   ]
+  ],
+  [
+   "plates",
+   [
+    "26",
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "plates",
+   [
+    "26",
+    "11",
+    "8"
+   ]
+  ],
+  [
+   "plates",
+   [
+    "26",
+    "3",
+    "0"
+   ]
+  ],
+  [
+   "plates",
+   [
+    "26",
+    "3",
+    "51"
+   ]
+  ],
+  [
+   "boards",
+   [
+    "0",
+    "10",
+    "3.85"
+   ]
+  ],
+  [
+   "boards",
+   [
+    "27",
+    "0",
+    "3.85"
+   ]
+  ],
+  [
+   "boards",
+   [
+    "27",
+    "10",
+    "0"
+   ]
+  ],
+  [
+   "boards",
+   [
+    "27",
+    "10",
+    "10000.01"
+   ]
+  ],
+  [
+   "bundles",
+   [
+    "0",
+    "10"
+   ]
+  ],
+  [
+   "bundles",
+   [
+    "37",
+    "0"
+   ]
+  ],
+  [
+   "bundles",
+   [
+    "37",
+    "1001"
+   ]
+  ]
+ ]
+}
