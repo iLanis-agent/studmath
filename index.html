@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stud Math - wall stud and plate arithmetic</title>
+<style>
+  :root { --accent:#2f5f8f; --ink:#12202e; --paper:#f1f5f9; --soft:#dfe9f2; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#58738d; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Stud Math</h1>
+  <p class="lede">The 26 ft of wall at 16 inches takes 21 studs, plus 6 extra, 27 studs in all.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Stud Math counts wall studs and plate boards with division and rounding-up: the studs a wall takes at a spacing, the plate boards, the cost of the boards, and the bundles. It uses one named constant: 12 inches in a foot. It applies the counting as written, so it has not seen your wall and does not know your local code, your corners, your openings or your framing plan, and it gives no verdict that a count is enough or that a wall is built to hold. Every other number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: 26 ft of wall at 16 inches with 6 extra studs, 3 plates in 8 ft boards, boards at $3.85, bundles of 10.</p>
+  <section>
+    <h2>The studs truth</h2>
+    <p>The 26 ft of wall at 16 inches takes 21 studs, plus 6 extra, 27 studs in all.</p>
+  </section>
+  <section>
+    <h2>The plates and boards truths</h2>
+    <p>The 3 plates of 26 ft in 8 ft boards take 10 boards, leaving 2 ft. The 27 studs and 10 plate boards are 37 boards, at $3.85 cost $142.45.</p>
+  </section>
+  <section>
+    <h2>The bundles truth</h2>
+    <p>The 37 boards in bundles of 10 take 4 bundles, leaving 3 boards.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Stud Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
